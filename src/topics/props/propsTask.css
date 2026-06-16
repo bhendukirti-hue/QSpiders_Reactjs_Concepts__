@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:white;
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+.card{
+    width:calc(25% - 20px);
+    width: 250px;
+    height: 300px;
+    background:#E3E3E2;
+    border-radius:20px;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    border: 8px solid #E3E3E2;
+}
+.card::before{
+    border-radius: 10px;
+    content:"";
+    display:block;
+    height:100px;
+    background:linear-gradient(
+        135deg,
+        #ffb6d9,
+        #ffe4c4,
+        #ffd1dc
+    );
+}
+img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    position:absolute;
+    top:55px;
+    left:20px;
+    z-index: 9999;
+}
+.card h3{
+    padding:0 20px;
+    font-size:20px;
+    position: absolute;
+    bottom: 120px;
+    font-size: 18px;
+}
+.s-box{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 300px;
+}
+.card h4{
+    padding:0 20px;
+    color:gray;
+    font-weight:400;
+    margin-left: -20px;
+    margin-top: 60px;
+}
+.card p{
+    padding:10px 20px;
+    color:#555;
+    font-size: 12px;
+}
+.stats{
+    display:flex;
+    text-align:center;
+    padding:20px 10px;
+    gap: 20px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.stats h5{
+    font-size:20px;
+    margin-top:5px;
+}
+.stats span{
+    color:gray;
+    font-size:14px;
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -32px;
+}
+.edit-btn{
+    position:absolute;
+    top:110px;
+    right:20px;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:20px;
+    padding:3px 5px;
+    font-size:11px;
+    cursor:pointer;
+    z-index:9999;
+}
+.verified{
+    color:#1d9bf0;
+    font-size:13px;
+}
+.sub-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+}
+.actions{
+    display:flex;
+    gap:6px;
+}
+.follow-btn{
+    background:black;
+    color:white;
+    border:none;
+    border-radius:20px;
+    padding:2px 7px;
+    cursor:pointer;
+    font-size:12px;
+}
+.msg-btn{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+    font-size:12px;
+}
