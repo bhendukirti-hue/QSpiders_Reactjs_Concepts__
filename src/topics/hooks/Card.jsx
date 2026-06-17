@@ -7,13 +7,16 @@ const Card = () => {
         img_url:"https://img.magnific.com/free-photo/little-cat-sitting-grass_1150-17019.jpg?semt=ais_hybrid&w=740&q=80"
     })
     const change_image=()=>{
-        alert("Change Image function trigger")
+     const url=prompt("Enetr your image url")
+     setCardData({...cardData,img_url:url})
     }
     const change_name=()=>{
         alert("Change name function trigger")
+        setCardData({...cardData,username:"B.Kirti"})
     }
     const change_age=()=>{
         alert("Change age function trigger")
+        setCardData({...cardData,age:"21"})
     }
   return (
       <div style={{width:"300px",height:"300px",borderRadius:"10px",border:"2px solid black"}}>
