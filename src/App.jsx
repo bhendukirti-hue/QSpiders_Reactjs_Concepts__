@@ -6,6 +6,8 @@ import Props_With_Conditional from "./topics/props_conditional_rendering/Props_W
 import Fragments_Concept from "./topics/fragments/Fragments_Concept";
 // import Spacex_Home from "./topics/props_conditional_rendering/spacex_project/Spacex_Home";
 import UseStateHook from "./topics/hooks/UseStateHook";
+import Data_fetch_card from "./topics/hooks/Data_fetch_Card/Data_fetch_card";
+import UseStateHookTask from "./topics/hooks/UseStateHookTask";
 const App=()=>{    
     return(
         <div>
@@ -15,7 +17,9 @@ const App=()=>{
             {/* <Props_With_Conditional/> */}
             {/* <Fragments_Concept/> */}
             {/* <Spacex_Home/> */}
-            <UseStateHook/>
+            {/* <UseStateHook/> */}
+            {/* <Data_fetch_card/> */}
+            <UseStateHookTask/>
         </div>
     )
 }
