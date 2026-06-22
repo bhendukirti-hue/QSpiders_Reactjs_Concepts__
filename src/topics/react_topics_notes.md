@@ -35,3 +35,10 @@
                      Example :- it helps to store the data and update the data dynamically.
                      --> This hook always return an array having 2 value.
                      --> First value is intial value and 2 value is a function to update the intial value.
+        2.useRef():- 
+        3.useEffect:- It is used to avoid the side effects of the react js 
+                       We can use 3 ways useEffect hook
+                       1.useEffect(callback):- It will execute the callback function for every re-render.
+                       2.useEffect((),[]):- it executes only one time i.e in the intial load.
+                       3.useEffect(callback,[dependency]):- it the dependency value changes the callback function will executes.
+                       Note:- useEffect hook will not return any data.(void function | void method)

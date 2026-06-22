@@ -8,6 +8,12 @@ import Fragments_Concept from "./topics/fragments/Fragments_Concept";
 import UseStateHook from "./topics/hooks/UseStateHook";
 import Data_fetch_card from "./topics/hooks/Data_fetch_Card/Data_fetch_card";
 import UseStateHookTask from "./topics/hooks/UseStateHookTask";
+import UseRefHooks from "./topics/hooks/useRefHook/UseRefHook";
+import UseEffectHook from "./topics/useeffecthook/UseEffectHook";
+import UseEffectHookTask from "./topics/useeffecthook/UseEffectHookTask";
+import AxiosConcept from "./topics/hooks/axiosconcepts/AxiosConcept";
+import PropsDrilling from "./topics/propsdrillling/PropsDrilling";
+import Hoc from "./topics/hoc/Hoc";
 const App=()=>{    
     return(
         <div>
@@ -19,7 +25,13 @@ const App=()=>{
             {/* <Spacex_Home/> */}
             {/* <UseStateHook/> */}
             {/* <Data_fetch_card/> */}
-            <UseStateHookTask/>
+            {/* <UseStateHookTask/> */}
+            {/* <UseRefHooks/> */}
+            {/* <UseEffectHook/> */}
+            {/* <UseEffectHookTask/> */}
+            {/* <AxiosConcept/> */}
+            {/* <PropsDrilling/> */}
+            <Hoc/>
         </div>
     )
 }
