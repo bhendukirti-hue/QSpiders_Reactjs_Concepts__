@@ -33,6 +33,8 @@ import ReactMemo from "./topics/optimization/ReactMemo";
 import UseMemoHook from "./topics/usememohook/UseMemoHook";
 import UseCallBackHook from "./topics/usecallbackhook/UseCallBackHook";
 import CustomHooks from "./topics/customhooks/CustomHooks";
+import UseReducerHook from "./topics/usereducerhook/UseReducerHook";
+import ReduxTookKitConcept from "./topics/reduxtoolkitconcept/ReduxTookKitConcept";
 const App=()=>{    
     return(
         <div>
@@ -68,7 +70,9 @@ const App=()=>{
             {/* <ReactMemo/> */}
             {/* <UseMemoHook/> */}
             {/* <UseCallBackHook/> */}
-            <CustomHooks/>
+            {/* <CustomHooks/> */}
+            {/* <UseReducerHook/> */}
+            <ReduxTookKitConcept/>
             <ToastContainer/>
         </div>
     )
