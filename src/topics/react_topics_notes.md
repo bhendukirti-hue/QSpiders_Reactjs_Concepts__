@@ -42,3 +42,12 @@
                        2.useEffect((),[]):- it executes only one time i.e in the intial load.
                        3.useEffect(callback,[dependency]):- it the dependency value changes the callback function will executes.
                        Note:- useEffect hook will not return any data.(void function | void method)
+        
+        Routing:-
+        To show the nested element.
+        We use Outlet when we useing nested routing.
+           Creet browser router
+           Router Provider
+           Outlet
+           
+
