@@ -10,7 +10,7 @@ const ReduxTookKitConcept = () => {
     <div>
         <h1>{count}</h1>
         <hr />
-        <button onClick={()=>dispatch(increment())} className='bg-green-500 rounded-[10px]'>increment</button>
+        <button onClick={()=>dispatch(increment(10))} className='bg-green-500 rounded-[10px]'>increment</button>
     <button onClick={()=>dispatch(decrement())} className='bg-green-500 rounded-[10px]'>Decrement</button>
     <button onClick={()=>dispatch(reset())} className='bg-green-500 rounded-[10px]'>Reset</button>
     </div>
